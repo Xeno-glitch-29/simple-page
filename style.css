@@ -1,0 +1,8 @@
+.nav {
+    background-color: black;
+}
+.list-item {
+    display: inline;
+    color: whitesmoke;
+    font-size: 2rem;
+}
