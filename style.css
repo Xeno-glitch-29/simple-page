@@ -1,11 +1,13 @@
 .nav {
     background-color: black;
 }
+
 .list-item {
     display: inline;
     color: whitesmoke;
     font-size: 2rem;
 }
+
 .header {
     background-image: url(./images/landscape.png);
     background-position: center;
@@ -13,5 +15,27 @@
     background-size: cover;
     height: 1000px;
     font-size: 2rem;
-    color:aqua
+    color: aqua
+}
+
+.about {
+    display: flex;
+
+    gap: 5rem;
+    padding: 12rem 5rem;
+}
+
+.article {
+    flex-basis: 33%;
+    border: 1px solid rgba(58, 55, 121, 0.678);
+    box-shadow: 0 20px 30px rgba(58, 55, 121, 0.678);
+    
+}
+
+.image {
+    width: 100%;
+}
+
+.content-box {
+    padding: 1.5rem 1rem;
 }
