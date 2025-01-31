@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    box-sizing: border-box;
 }
 .nav {
     background-color: black;
@@ -82,11 +83,22 @@ border-radius: 10px;
     flex-wrap: wrap;
 }
 .gallary .box {
- flex-basis: 33%;
+ flex-basis: 31.2%;
 /* the way to center the element inside a parent */
 display: flex;
 align-items: center;
 justify-content: center;
+}
+
+.gallary .box  {
+    background-color: rgb(191, 0, 255);
+    border: 1px solid black;
+    padding: 1rem 1rem;
+    transition: all 1s ease-in-out;
+}
+
+.gallary .box:hover  {
+    background-color: rgb(132, 5, 174);
 }
 
 .gallary .box .image-box .image{
