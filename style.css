@@ -107,3 +107,33 @@ justify-content: center;
 width: 300px;
 height: 300px;
 }
+/* teamsection styles */
+.box {
+    width: 30%;
+
+}
+
+.team .box .team-member {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.team .box .team-desc {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(99, 96, 96)
+}
+
+.team .box i {
+
+    font-size: 3rem;
+    margin: 1px 8px;
+    color: blueviolet ;
+}
+
+.team .box .icons-box {
+    text-align: center;
+}
+.team{
+    display: flex;
+}
