@@ -2,6 +2,7 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
+
 .nav {
     background-color: black;
     padding: 2rem 2rem;
@@ -12,7 +13,7 @@ body {
 }
 
 .list {
-    margin:0;
+    margin: 0;
 }
 
 .list-item {
@@ -37,14 +38,14 @@ body {
     background-color: aqua;
     padding: 0.5rem 2rem;
     border: 1px solid white;
-    border-radius:15px;
+    border-radius: 15px;
 }
 
 .wrapper {
     background-color: black;
     opacity: 50%;
     padding: 3rem 5rem;
-    
+
 }
 
 .about {
@@ -58,15 +59,15 @@ body {
     flex-basis: 33%;
     border: 1px solid rgba(58, 55, 121, 0.678);
     box-shadow: 0 20px 30px rgba(58, 55, 121, 0.678);
-    
+
 }
 
 .about .article .btn {
-background-color: blueviolet;
-padding: 0.5rem 3rem;
-color: white;
-border: 1px solid darkviolet;
-border-radius: 10px;
+    background-color: blueviolet;
+    padding: 0.5rem 3rem;
+    color: white;
+    border: 1px solid darkviolet;
+    border-radius: 10px;
 }
 
 .image {
@@ -82,35 +83,45 @@ border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
 }
+
 .gallary .box {
- flex-basis: 31.2%;
-/* the way to center the element inside a parent */
-display: flex;
-align-items: center;
-justify-content: center;
+    flex-basis: 31.2%;
+    /* the way to center the element inside a parent */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.gallary .box  {
+.gallary .box {
     background-color: rgb(191, 0, 255);
     border: 1px solid black;
     padding: 1rem 1rem;
     transition: all 1s ease-in-out;
 }
 
-.gallary .box:hover  {
+.gallary .box:hover {
     background-color: rgb(132, 5, 174);
 }
 
-.gallary .box .image-box .image{
+.gallary .box .image-box .image {
     border: 1px solid black;
     border-radius: 50%;
-width: 300px;
-height: 300px;
+    width: 300px;
+    height: 300px;
 }
+
 /* teamsection styles */
+.team {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0;
+}
+
 .box {
     width: 30%;
-
+    border: 1px solid blueviolet;
 }
 
 .team .box .team-member {
@@ -128,12 +139,14 @@ height: 300px;
 
     font-size: 3rem;
     margin: 1px 8px;
-    color: blueviolet ;
+    color: blueviolet;
 }
 
 .team .box .icons-box {
     text-align: center;
+    padding: 1rem 2rem ;
 }
-.team{
+
+.team {
     display: flex;
 }
