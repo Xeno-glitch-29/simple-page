@@ -41,31 +41,32 @@ let object2 = {
 // console.log(object2);
 let singleText = "ball"
 let multiTexts = ["ball", "cookie", "milk"]
-// console.log(multiTexts[0]);
+console.log("i like " + multiTexts[1] + " with " + multiTexts[2]);
+console.log("my New " + object.car + " which were built " + object.production + " in the color "+object.colour);
 
 let addition = 15
 
-// console.log(addition);
+console.log(multiTexts);
 let isAdult = false
 
 let coupleAssertion = addition === 70 && isAdult
-console.log(coupleAssertion);
+// console.log(coupleAssertion);
 
 // && means true and true so both sides must be correct
 // || means true or false so at least 1 part has to be correct
 if (addition < 18 || isAdult) {
-    console.log("this person is not an adult");
+    // console.log("this person is not an adult");
 
 } else {
-    console.log("this is adult");
+    // console.log("this is adult");
 
 }
 
 
 if ("adam" === myName) {
-    console.log("this is a student");
+    // console.log("this is a student");
     
 }else if (myName=== "ula"){
-console.log("this is a teacher");
+// console.log("this is a teacher");
 
 }
