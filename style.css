@@ -144,9 +144,53 @@ body {
 
 .team .box .icons-box {
     text-align: center;
-    padding: 1rem 2rem ;
+    padding: 1rem 2rem;
 }
 
 .team {
     display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+
+        padding: 1rem 0;
+    }
+
+    .list {
+        padding: 0;
+    }
+
+    .list-item {
+        display: block;
+
+
+    }
+
+    /* header mobile responsivity */
+
+
+    .wrapper {
+
+        padding: 1rem 0.5rem;
+
+    }
+
+    /* about mobile responsivity */
+    .about {
+
+        flex-wrap: wrap;
+
+        padding: 6rem 1rem;
+    }
+
+    .article {
+        flex-basis: 100%;
+
+
+    }
+
+
+
+
 }
