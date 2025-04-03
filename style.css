@@ -190,6 +190,80 @@ body {
 
     }
 
+    /* gallary mobile responsivity */
+    .gallary .box {
+
+        flex-basis: 100%;
+
+
+
+
+
+    }
+
+    /* team mobile responsivity */
+
+.team {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0;
+    flex-wrap: wrap ;
+}
+
+.box {
+   flex-basis: 100%;
+    border: 1px solid blueviolet;
+}
+
+.team .box .team-member {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.team .box .image {
+    width:20rem;
+    margin: auto;
+    
+}
+.team .box .image-box {
+text-align: center;
+    
+}
+.team .box .team-desc {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(99, 96, 96)
+}
+
+.team .box i {
+
+    font-size: 3rem;
+    margin: 1px 8px;
+    color: blueviolet;
+}
+
+.team .box .icons-box {
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.team {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
