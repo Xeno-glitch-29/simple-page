@@ -203,55 +203,57 @@ body {
 
     /* team mobile responsivity */
 
-.team {
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    padding: 10rem 0;
-    flex-wrap: wrap ;
-}
+    .team {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        padding: 10rem 0;
+        flex-wrap: wrap;
+    }
 
-.box {
-   flex-basis: 100%;
-    border: 1px solid blueviolet;
-}
+    .box {
+        flex-basis: 100%;
+        border: 1px solid blueviolet;
+    }
 
-.team .box .team-member {
-    font-size: 4rem;
-    text-align: center;
-}
+    .team .box .team-member {
+        font-size: 4rem;
+        text-align: center;
+    }
 
-.team .box .image {
-    width:20rem;
-    margin: auto;
-    
-}
-.team .box .image-box {
-text-align: center;
-    
-}
-.team .box .team-desc {
-    font-size: 2rem;
-    text-align: center;
-    color: rgb(99, 96, 96)
-}
+    .team .box .image {
+        width: 20rem;
+        margin: auto;
 
-.team .box i {
+    }
 
-    font-size: 3rem;
-    margin: 1px 8px;
-    color: blueviolet;
-}
+    .team .box .image-box {
+        text-align: center;
 
-.team .box .icons-box {
-    text-align: center;
-    padding: 1rem 2rem;
-}
+    }
 
-.team {
-    display: flex;
-}
+    .team .box .team-desc {
+        font-size: 2rem;
+        text-align: center;
+        color: rgb(99, 96, 96)
+    }
+
+    .team .box i {
+
+        font-size: 3rem;
+        margin: 1px 8px;
+        color: blueviolet;
+    }
+
+    .team .box .icons-box {
+        text-align: center;
+        padding: 1rem 2rem;
+    }
+
+    .team {
+        display: flex;
+    }
 
 }
 
@@ -261,12 +263,14 @@ text-align: center;
     margin: auto;
     border: 1px solid black;
     padding: 2rem 4rem;
-
+    background-color:#5865f2 ;
+    color: white;
 }
 
-.form input {
+.form input:not(.checkbox, .radio) {
     width: 70%;
     padding: 0.5rem 1rem;
+    margin: 1rem 0;
 }
 
 .form-header {

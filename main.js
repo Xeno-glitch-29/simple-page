@@ -42,7 +42,7 @@ let object2 = {
 let singleText = "ball"
 let multiTexts = ["ball", "cookie", "milk"]
 console.log("i like " + multiTexts[1] + " with " + multiTexts[2]);
-console.log("my New " + object.car + " which were built " + object.production + " in the color "+object.colour);
+console.log("my New " + object.car + " which were built " + object.production + " in the color " + object.colour);
 
 let addition = 15
 
@@ -65,8 +65,16 @@ if (addition < 18 || isAdult) {
 
 if ("adam" === myName) {
     // console.log("this is a student");
-    
-}else if (myName=== "ula"){
-// console.log("this is a teacher");
+
+} else if (myName === "ula") {
+    // console.log("this is a teacher");
 
 }
+
+
+
+
+// form logic
+
+let firstName = document.querySelectorAll("input")
+console.log(firstName);
