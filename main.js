@@ -76,5 +76,8 @@ if ("adam" === myName) {
 
 // form logic
 
-let firstName = document.querySelectorAll("input")
+let firstName = document.querySelector("input[name=fname]").value
 console.log(firstName);
+
+let oreo = document.querySelector("input[name=lname]")
+console.log(oreo.value);

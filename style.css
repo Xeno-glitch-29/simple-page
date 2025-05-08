@@ -273,6 +273,16 @@ body {
     margin: 1rem 0;
 }
 
+.form input[type="radio"],
+.form input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+}
+
+.form label {
+    font-size: 2rem;
+}
+
 .form-header {
     margin: auto;
     width: 80%;
